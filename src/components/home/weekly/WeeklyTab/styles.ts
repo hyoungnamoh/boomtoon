@@ -16,7 +16,6 @@ export const WeeklyTabItem = styled.button<{ isSelected?: boolean }>`
   font-size: 12px;
   line-height: 1.5;
   border-radius: 16px;
-  cursor: pointer;
   height: 32px;
 
   font-weight: ${({ isSelected }) => (isSelected ? '700' : '400')};

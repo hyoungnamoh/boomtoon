@@ -5,7 +5,6 @@ export const WeeklyContentsItemWrap = styled.button`
   flex-direction: column;
   max-width: 161.25px;
   margin: 0 4px;
-  cursor: pointer;
   margin-bottom: 18px;
 `;
 

@@ -60,7 +60,7 @@ export const NavButtonContentContainer = styled.div`
   justify-content: space-around;
 `;
 
-export const NavBarItemWrap = styled.span`
+export const NavBarItemButton = styled.button`
   position: relative;
   display: flex;
   width: 50px;
@@ -69,7 +69,6 @@ export const NavBarItemWrap = styled.span`
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  cursor: pointer;
 `;
 
 export const NavBarItemImage = styled.img`

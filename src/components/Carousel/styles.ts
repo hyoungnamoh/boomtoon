@@ -28,7 +28,6 @@ export const PagingBox = styled.div`
   height: 28px;
   border-radius: 14.3px;
   background-color: rgba(0, 0, 0, 0.3);
-  cursor: default;
 `;
 
 export const PageInfo = styled.span`

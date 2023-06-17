@@ -4,6 +4,7 @@ import MainTab from '@/components/home/weekly/MainTab';
 import Carousel from '@/components/Carousel';
 import WeeklyTab from '@/components/home/weekly/WeeklyTab';
 import WeeklyContents from '@/components/home/weekly/WeeklyContents';
+import Footer from '@/components/layout/Footer';
 
 const WEEKLY_BANNER_IMAGES = [
   '/images/banner/weekly/weekly-banner-1.webp',
@@ -20,6 +21,7 @@ const WeeklyPage = () => {
         <WeeklyTab />
         <WeeklyContents />
       </MainContentContainer>
+      <Footer />
     </>
   );
 };
