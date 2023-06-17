@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const TopBarWrap = styled.header`
   position: sticky;
   z-index: 3000;
-  top: 0px;
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;

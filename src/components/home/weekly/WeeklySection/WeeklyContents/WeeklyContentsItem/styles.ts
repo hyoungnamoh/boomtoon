@@ -1,4 +1,15 @@
-import styled from 'styled-components';
+import Image from 'next/image';
+import styled, { keyframes } from 'styled-components';
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+`;
 
 export const WeeklyContentsItemWrap = styled.button`
   display: flex;
@@ -6,6 +17,8 @@ export const WeeklyContentsItemWrap = styled.button`
   max-width: 161.25px;
   margin: 0 4px;
   margin-bottom: 18px;
+  position: relative;
+  animation: ${fadeIn} 1.5s forwards;
 `;
 
 export const ContentTitle = styled.span`
@@ -48,4 +61,9 @@ export const Divider = styled.div`
   margin: 0 8px;
   height: 60%;
   background-color: #e0e0e0;
+`;
+
+export const UpImage = styled(Image)`
+  position: absolute;
+  right: 0;
 `;

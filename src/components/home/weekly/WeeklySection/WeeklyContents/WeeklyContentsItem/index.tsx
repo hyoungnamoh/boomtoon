@@ -7,10 +7,11 @@ const WeeklyContentsItem = ({ content }: { content: WeeklyContent }) => {
     <S.WeeklyContentsItemWrap>
       <Image
         src={content.thumbnails.find(thumbnail => thumbnail.type === 'SQUARE')?.imagePath || ''}
-        width={161.25}
+        width={162}
         height={161}
         alt={content.title}
       />
+      {content.badge.up && <S.UpImage src={'/images/common/ic-comm-badge-up.svg'} alt="up" width={28} height={28} />}
       <S.ContentTitle>{content.title}</S.ContentTitle>
       <S.ViewCountAndCreatorRow>
         <Image src={'/images/common/ic-comm-view.svg'} alt="view_count" width={16} height={16} />

@@ -64,7 +64,6 @@ export const AccordionButton = styled.button`
   color: #363636;
   font-weight: 700;
   margin-left: 8px;
-  cursor: default;
 `;
 
 const fadeIn = keyframes`

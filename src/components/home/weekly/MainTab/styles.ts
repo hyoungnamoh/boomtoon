@@ -1,13 +1,17 @@
 import styled from 'styled-components';
 
 export const TabItemContainer = styled.header`
+  position: sticky;
+  top: 98px;
+  z-index: 10;
+  background-color: #fff;
   width: 100%;
   display: flex;
   justify-content: space-around;
   height: 48px;
 `;
 
-export const TabItem = styled.div<{ isSelected?: boolean }>`
+export const TabItem = styled.button<{ isSelected?: boolean }>`
   display: flex;
   width: 100%;
   justify-content: center;

@@ -88,7 +88,7 @@ const Carousel = ({
               carouselTransition={carouselTransition}
               height={height}
             >
-              <Image width={width} height={height} src={image} alt={`Carousel image${index}`} style={{ height }} />
+              <Image width={width} height={height} src={image} alt={`Carousel image${index}`} priority={true} />
             </S.CarouselImageWrap>
           );
         })}
