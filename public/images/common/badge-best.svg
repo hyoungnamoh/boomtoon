@@ -1,0 +1,16 @@
+<svg width="32" height="14" viewBox="0 0 32 14" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="o7igao8v5a">
+            <path d="M1280 0v3424H0V0h1280z"/>
+        </clipPath>
+        <clipPath id="lcwfbj419b">
+            <path d="M25 0a7 7 0 0 1 0 14H7A7 7 0 0 1 7 0h18z"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#o7igao8v5a)" transform="translate(-640 -2816)">
+        <text transform="translate(644.247 2826)" font-family="Helvetica" font-size="9" fill="#FC3CAB" text-anchor="center">BEST</text>
+        <g clip-path="url(#lcwfbj419b)" transform="translate(640 2816)">
+            <path d="M7 0h18a7 7 0 0 1 0 14H7A7 7 0 0 1 7 0z" stroke="#FC3CAB" stroke-width="1.2" fill="none" stroke-miterlimit="5"/>
+        </g>
+    </g>
+</svg>

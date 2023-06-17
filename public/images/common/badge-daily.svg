@@ -1,0 +1,17 @@
+<svg width="32" height="14" viewBox="0 0 32 14" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="fn80or4l2a">
+            <path d="M1280 0v3424H0V0h1280z"/>
+        </clipPath>
+        <clipPath id="yc1u4kbxxb">
+            <path d="M25 0a7 7 0 0 1 0 14H7A7 7 0 0 1 7 0h18z"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#fn80or4l2a)" transform="translate(-473 -865)">
+        <g clip-path="url(#yc1u4kbxxb)" transform="translate(473 865)">
+            <path fill="#FFF" d="M0 0h32v14H0V0z"/>
+            <path d="M7 0h18a7 7 0 0 1 0 14H7A7 7 0 0 1 7 0z" stroke="#6C5DE5" stroke-width="1.5" fill="none" stroke-miterlimit="5"/>
+        </g>
+        <text transform="translate(476.826 875.5)" font-family="Helvetica" font-size="9" fill="#6C5DE5" text-anchor="center" letter-spacing="-.2">DAILY</text>
+    </g>
+</svg>
