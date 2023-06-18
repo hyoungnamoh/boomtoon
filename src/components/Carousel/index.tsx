@@ -97,7 +97,7 @@ const Carousel = ({
             <S.PrevImage src={'/images/common/group-20.webp'} />
           </S.PrevButton>
           <S.PageInfo>
-            {getCurrentPage({ currentIndex: carouselIndex })}/{imageList.length}
+            {getCurrentPage({ currentIndex: carouselIndex })} / {imageList.length}
           </S.PageInfo>
           <S.NextButton onClick={onNext}>
             <S.NextImage src={'/images/common/group-20-copy.webp'} />

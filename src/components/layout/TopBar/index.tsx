@@ -1,6 +1,8 @@
+import { useRouter } from 'next/router';
 import * as S from './styles';
 
 const TopBar = () => {
+  const router = useRouter();
   return (
     <S.TopBarWrap>
       <S.SwitchContainer>
@@ -9,7 +11,7 @@ const TopBar = () => {
         </S.SwitchContentsContainer>
       </S.SwitchContainer>
       <S.NavContainer>
-        <S.LogoButton>
+        <S.LogoButton onClick={() => router.push('/')}>
           <S.Logo src={'/images/nav/ic-pc-nav-home.svg'} />
         </S.LogoButton>
         <S.NavButtonContentContainer>

@@ -11,7 +11,7 @@ const fadeIn = keyframes`
   }
 `;
 
-export const WeeklyContentsItemWrap = styled.button`
+export const WeeklyContentsItemWrap = styled.article`
   display: flex;
   flex-direction: column;
   max-width: 161.25px;
@@ -19,6 +19,7 @@ export const WeeklyContentsItemWrap = styled.button`
   margin-bottom: 18px;
   position: relative;
   animation: ${fadeIn} 1.5s forwards;
+  cursor: pointer;
 `;
 
 export const ContentTitle = styled.span`

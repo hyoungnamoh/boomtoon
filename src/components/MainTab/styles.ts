@@ -21,5 +21,5 @@ export const TabItem = styled.button<{ isSelected?: boolean }>`
   overflow: hidden;
   line-height: 1.5;
   color: ${({ isSelected }) => (isSelected ? '#FC3DAB' : '#757575')};
-  border-bottom: ${({ isSelected }) => (isSelected ? '1px solid #fc3dab' : 'none')};
+  border-bottom: ${({ isSelected }) => (isSelected ? '1px solid #fc3dab' : '1px solid #e0e0e0')};
 `;
