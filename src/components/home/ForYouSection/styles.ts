@@ -17,6 +17,7 @@ export const ForYouSectionTitle = styled.span`
   font-size: 16px;
   color: #000000;
   margin-left: 10px;
+  cursor: default;
 `;
 
 export const ForYouContent = styled.article`

@@ -16,6 +16,7 @@ export const NewSectionTitleRow = styled.div`
 export const NewSectionTitle = styled.strong`
   font-size: 20px;
   color: #212121;
+  cursor: default;
 `;
 
 export const NewContent = styled.article`

@@ -21,6 +21,7 @@ export const Today = styled.strong`
 export const TodaySectionTitle = styled.strong`
   font-size: 20px;
   color: #212121;
+  cursor: default;
 `;
 
 export const TodayContent = styled.article`

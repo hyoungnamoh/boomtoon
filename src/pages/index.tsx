@@ -9,6 +9,7 @@ import Image from 'next/image';
 import ForYouSection from '@/components/home/ForYouSection';
 import PickSection from '@/components/home/PickSection';
 import EventBanner from '@/components/home/EventBanner';
+import RecommenedBanner from '@/components/home/RecommenedBanner';
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       <TodaySection />
       <TagSection />
       <BestSection />
-      <Image src={'/images/banner/badposition.webp'} alt={'2023 banner thumbnail1'} width={720} height={300} />
+      <RecommenedBanner />
       <ForYouSection />
       <PickSection />
       <EventBanner />

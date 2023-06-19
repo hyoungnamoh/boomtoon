@@ -21,6 +21,7 @@ export const Highlight = styled.strong`
 export const TagSectionTitle = styled.strong`
   font-size: 20px;
   color: #212121;
+  cursor: default;
 `;
 
 export const TagItem = styled.article`

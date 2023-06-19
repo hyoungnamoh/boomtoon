@@ -16,6 +16,7 @@ export const BestSectionTitleRow = styled.div`
 export const BestSectionTitle = styled.strong`
   font-size: 20px;
   color: #212121;
+  cursor: default;
 `;
 
 export const BestContentContainer = styled.div`

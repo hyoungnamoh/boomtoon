@@ -22,6 +22,7 @@ export const PickSectionTitle = styled.strong`
   font-size: 20px;
   color: #fc3dab;
   gap: 8px;
+  cursor: default;
 `;
 
 export const PickContent = styled.article`
