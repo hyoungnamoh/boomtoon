@@ -13,7 +13,7 @@ const TodaySection = () => {
         </S.TodaySectionTitle>
         <MoreButton />
       </S.TodaySectionTitleRow>
-      <DragScroll gap={10}>
+      <DragScroll>
         {TODAY_CONTENTS.map(content => {
           return (
             <S.TodayContent key={content.id}>

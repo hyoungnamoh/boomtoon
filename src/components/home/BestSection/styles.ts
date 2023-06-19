@@ -44,6 +44,10 @@ export const Ranking = styled.span`
   position: relative;
 `;
 
+export const BestThumbnail = styled(Image)`
+  border-radius: 4px;
+`;
+
 export const SoaredImage = styled(Image)`
   position: absolute;
   top: 1px;

@@ -2,7 +2,6 @@ import { WEEKLY_TAB_LIST } from '../WeeklyTab/constants';
 import WeeklyContentsItem from './WeeklyContentsItem';
 import { WEEKLY_CONTENTS } from './constants';
 import * as S from './styles';
-import { WeeklyContent } from './types';
 
 const WeeklyContents = ({ selectedTab }: { selectedTab: (typeof WEEKLY_TAB_LIST)[number] }) => {
   return (

@@ -1,4 +1,3 @@
-import MoreButton from '@/components/MoreButton';
 import * as S from './styles';
 import DragScroll from '@/components/DragScroll';
 import { FOR_YOU_CONTENTS } from './constants';

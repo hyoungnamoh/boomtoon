@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import * as S from './styles';
+
 const MoreButton = ({ white }: { white?: boolean }) => {
   return (
     <S.MoreButtonWrap white={white}>

@@ -1,4 +1,3 @@
-import MoreButton from '@/components/MoreButton';
 import * as S from './styles';
 import DragScroll from '@/components/DragScroll';
 import { TAG_LIST } from './constants';

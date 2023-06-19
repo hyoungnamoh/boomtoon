@@ -18,7 +18,7 @@ const PickSection = () => {
         {PICK_CONTENTS.map(content => {
           return (
             <S.PickContent key={content.id}>
-              <Image src={content.thumbnail} width={150} height={198} alt={content.title} />
+              <S.PickThumbnail src={content.thumbnail} width={150} height={198} alt={content.title} />
               {content.badge && (
                 <S.BestImage src={'/images/common/badge-best.svg'} width={32} height={14} alt="daily" />
               )}

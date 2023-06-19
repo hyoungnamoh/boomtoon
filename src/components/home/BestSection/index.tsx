@@ -1,6 +1,5 @@
 import MoreButton from '@/components/MoreButton';
 import * as S from './styles';
-import DragScroll from '@/components/DragScroll';
 import { BEST_CONTENTS } from './constants';
 import Image from 'next/image';
 
@@ -15,7 +14,7 @@ const BestSection = () => {
         {BEST_CONTENTS.map(content => {
           return (
             <S.BestContent key={content.id}>
-              <Image
+              <S.BestThumbnail
                 src={content.thumbnails.find(thumbnail => thumbnail.type === 'SQUARE')?.imagePath || ''}
                 alt={content.title}
                 width={120}

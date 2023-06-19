@@ -11,7 +11,7 @@ const NewSection = () => {
         <S.NewSectionTitle>เรื่องใหม่มาแรง</S.NewSectionTitle>
         <MoreButton />
       </S.NewSectionTitleRow>
-      <DragScroll gap={13}>
+      <DragScroll>
         {NEWEST_CONTENTS.map(content => {
           return (
             <S.NewContent key={content.id}>

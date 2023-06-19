@@ -1,7 +1,6 @@
 import { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import { WEEKLY_TAB_LIST } from './constants';
 import * as S from './styles';
-import { WEEK_ENG } from '@/constants/date';
 
 const WeeklyTab = ({
   selectedTab,

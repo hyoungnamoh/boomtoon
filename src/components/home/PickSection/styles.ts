@@ -33,6 +33,10 @@ export const PickContent = styled.article`
   margin: 0 9px;
 `;
 
+export const PickThumbnail = styled(Image)`
+  border-radius: 4px;
+`;
+
 export const BestImage = styled(Image)`
   margin-top: 12px;
   width: 36px;
@@ -41,16 +45,14 @@ export const BestImage = styled(Image)`
 `;
 
 export const PickContentTitle = styled.span`
-  margin-left: 4px;
-  color: #212121;
-  font-size: 16px;
-  width: 100%;
-  color: #212121;
-  font-size: 16px;
+  font-size: 14px;
   text-overflow: ellipsis;
   font-weight: 400;
   white-space: nowrap;
   overflow: hidden;
+  line-height: 1.5;
+  color: #fff;
+  margin-top: 12px;
 `;
 
 export const PickContenntSubTitle = styled.span`

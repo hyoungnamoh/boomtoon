@@ -30,6 +30,7 @@ export const TodayContent = styled.article`
   width: 144px;
   cursor: pointer;
   position: relative;
+  margin: 0 5px;
 `;
 
 export const UpImage = styled(Image)`

@@ -8,6 +8,7 @@ import BestSection from '@/components/home/BestSection';
 import Image from 'next/image';
 import ForYouSection from '@/components/home/ForYouSection';
 import PickSection from '@/components/home/PickSection';
+import EventBanner from '@/components/home/EventBanner';
 
 export default function Home() {
   return (
@@ -18,18 +19,10 @@ export default function Home() {
       <TodaySection />
       <TagSection />
       <BestSection />
-      <Image src={'/images/banner/badposition.webp'} alt={'2023 banner thumbnail1'} width={720} height={300} priority />
+      <Image src={'/images/banner/badposition.webp'} alt={'2023 banner thumbnail1'} width={720} height={300} />
       <ForYouSection />
       <PickSection />
-      {/* <div style={{ width: '100%', height: 270 }}> */}
-      <Image
-        src={'/images/banner/1677489460859.webp'}
-        alt={'2023 banner thumbnail2'}
-        width={720}
-        height={270}
-        priority
-      />
-      {/* </div> */}
+      <EventBanner />
     </>
   );
 }

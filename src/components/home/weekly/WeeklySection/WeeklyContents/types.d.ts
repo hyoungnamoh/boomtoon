@@ -15,7 +15,7 @@ export type WeeklyContent = {
     scheduled: boolean;
     up: boolean;
     completed: boolean;
-    recommended: fabooleanlse;
+    recommended: boolean;
     discount: number;
     free: number;
     freetime: boolean;

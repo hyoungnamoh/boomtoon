@@ -32,6 +32,7 @@ const Footer = () => {
             </S.BrandLinkButton>
           </S.BrandLinkButtonContainer>
         </S.AgreementAndBrandLinkRow>
+        <S.Divider />
         <S.CompanyInfoContainer>
           <S.AccordionRow>
             <Image src={'/images/nav/ic-nav-logo-g.png'} alt={'company'} width={117} height={24} />

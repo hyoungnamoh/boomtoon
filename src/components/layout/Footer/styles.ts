@@ -1,5 +1,25 @@
 import styled, { keyframes } from 'styled-components';
 
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+`;
+
+const fadeOut = keyframes`
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+`;
+
 export const FooterWrap = styled.footer`
   display: flex;
   flex-direction: column;
@@ -66,26 +86,6 @@ export const AccordionButton = styled.button`
   margin-left: 8px;
 `;
 
-const fadeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-`;
-
-const fadeOut = keyframes`
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-`;
-
 export const FooterAccordionContent = styled.p<{ open: boolean }>`
   display: inline-block;
   font-size: 10px;
@@ -103,4 +103,10 @@ export const CompanyInfo = styled.p`
   font-weight: 400;
   line-height: 1.5;
   margin-top: 16px;
+`;
+
+export const Divider = styled.div`
+  height: 1px;
+  width: 100%;
+  background-color: #e0e0e0;
 `;

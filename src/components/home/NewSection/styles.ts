@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const NewSectionWrap = styled.section`
   display: flex;
   flex-direction: column;
-  padding: 20px 8px 0 16px;
+  padding: 20px 8px;
 `;
 
 export const NewSectionTitleRow = styled.div`
@@ -25,6 +25,7 @@ export const NewContent = styled.article`
   width: 157px;
   cursor: pointer;
   position: relative;
+  margin: 0 6.5px;
 `;
 
 export const UpImage = styled(Image)`
